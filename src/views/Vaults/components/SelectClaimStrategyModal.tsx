@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from 'react';
+import React, { useCallback } from 'react';
 import styled from 'styled-components';
 import { ButtonLink } from '../../../components/Buttons/ButtonLink';
 import Modal from '../../../components/Modal';
