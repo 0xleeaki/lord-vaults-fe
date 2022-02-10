@@ -30,7 +30,7 @@ const useHandleTransactionReceipt = () => {
         });
         addTransaction(response, { ...customData, summary });
         return response;
-      } catch (err) {
+      } catch (err: any) {
         hideModal();
         const { title, message } = getErrorMessage(err, summary);
         addPopup({ error: { message, title } });
